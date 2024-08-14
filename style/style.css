@@ -81,6 +81,68 @@ nav ul {
 .imge {
   padding-left: 200px;
 }
+/* extra btn */
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgb(230, 83, 60);
+}
+.label {
+  position: absolute;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+  font-family: Inter;
+  height: 56px;
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.label2 {
+  position: absolute;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+  font-family: Inter;
+  height: 56px;
+  width: 130px;
+}
+.extra-button-title {
+  color: rgb(250, 250, 249);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 900;
+  margin: 0px;
+}
+.ex-btn-para {
+  margin: -13px;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  color: rgba(239, 237, 232, 0.65);
+}
+
+.video-tutorial {
+  margin-left: -100px;
+  margin-top: -120px;
+  background: rgba(48, 48, 48, 0.54);
+}
+
+.free-workout {
+  margin-top: -450px;
+  margin-left: 200px;
+  background: rgba(48, 48, 48, 0.54);
+  /* border: 2px solid red; */
+}
+
 .btn2 {
   padding: 16px 40px 16px 40px;
 
@@ -115,11 +177,20 @@ letter-spacing: 0px; */
   font-style: normal;
 }
 .sec21 {
-  /* border: 2px solid red; */
+  border: 2px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
+}
+.Image-father{
+  /* border:2px solid rgb(128, 0, 0); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* margin: 0px auto;
+  padding:0px auto; */
 }
 
 .imgcard {
@@ -129,7 +200,7 @@ letter-spacing: 0px; */
   justify-content: center;
   width: 231px;
   height: 270px;
-  /* border: 2px solid; */
+  /* border: 2px solid yellow; */
 }
 .img1card {
   /* border: 2px solid red; */
@@ -153,11 +224,12 @@ letter-spacing: 0px; */
 .imgcard-container {
   display: flex;
   justify-content: space-evenly;
-  margin-left: -150px;
+  /* margin-left: -150px; */
 
   /* border:2px solid green; */
-  width: 140%;
+  width: 85%;
 }
+
 .titlebar {
   color: rgb(255, 255, 255);
   font-family: Inter;
@@ -171,21 +243,30 @@ letter-spacing: 0px; */
   justify-content: space-between;
   background-color: rgb(0, 0, 0);
 }
+.run-section{
+width: 100%;
+margin: ;
+  /* border: 2px solid greenyellow; */
+}
 .run {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 40px;
-  border: 2px solid;
-  width: 1060px;
-  height: 371px;
+  /* border: 2px solid yellow; */
+  /* width: 1060px;
+  height: 371px; */
   border-radius: 18px;
   background: rgb(34, 34, 34);
+  width: 75%;
+  margin: auto;
+
 }
 .run1 {
   width: 400px;
-  /* border: 2px solid greenyellow; */
-  padding: 20px;
+   border: 2px solid rgb(255, 47, 47);
+  /* padding: 20px; */
+
 }
 .img2 {
   height: 312px;
@@ -473,68 +554,177 @@ letter-spacing: 0px; */
   font-family: Inter;
 }
 
-@media screen and (max-width:576px) {
-    footer{
-        /* width: 100%; */
-        padding: 0px;
-        
-    } 
-    .daily-workout{
-        width: 100%;
-    }
-    .footer-container{
-        flex-direction: column;
-        align-items: flex-start;
-        font-size: 2rem;
-        
-        
-    }
-    .footer-links{
-        flex-direction: column;
-        margin-left: 1px;
-        padding-left: 0px;
-        font-size: 2rem;
+@media screen and (max-width: 576px) {
+  footer {
+    /* width: 100%; */
+    padding: 0px;
+  }
+  .daily-workout {
+    width: 100%;
+  }
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 2rem;
+  }
+  .footer-links {
+    flex-direction: column;
+    margin-left: 1px;
+    padding-left: 0px;
+    font-size: 2rem;
+  }
+  .bmi-para {
+    width: 350px;
+  }
 
-    }
-    .bmi-para{
-    
-      width: 350px;
-      
-    }
-    
-    .card-img{
-      height: 272px;
-      width: 313px;
-      margin: 0px auto;
-    }
-    .Trainner{
-      /* grid-template-columns: repeat(1,1fr);
+  .card-img {
+    height: 272px;
+    width: 313px;
+    margin: 0px auto;
+  }
+  .Trainner {
+    /* grid-template-columns: repeat(1,1fr);
       border: 2px solid red;
       width: 100%;
       margin: opx auto; */
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      border-radius: 18px;
-background: rgba(255, 255, 255, 0.1);
-padding: 30px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px 5px;
+  }
+  .sec5 {
+    width: 100%;
+  }
+  .marg {
+    padding: 0 20px;
+  }
+  nav ul{
+    display: none;
 
-    }
-    .sec5{
-      width: 100%;
-      
-    }
-    .marg{
-      padding: 0 20px;
+  }
+  .navbar-menu {
+    display: flex;
+    align-items: center;
+}
 
-    }
-    
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.hamburger-menu .bar {
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    border-radius: 2px;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  width: 100%;
+  margin: 0px;
+}
+ .banner{
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+.sec1{
+  width: 88%;
+  padding: 30px;
+margin: 0px;
+/* border: 2px solid red; */
+}
+.oneone{
+  /* border: 2px solid rgb(68, 255, 0); */
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+.imge{
+  margin: 20px;
+  padding: 60px;
+  /* border: 2px solid rgb(255, 225, 0); */
+
+  width: 60%;
+
+}
+.label2 ,.free-workout{
+  /* margin: 0px; */
+ 
+  margin-left: 200px; 
+  margin-top: -600px;
+}
+
+.label ,.video-tutorial{
+  margin-top: -340px;
+  margin-left: 0px;
+  
+}
+.sec21{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  
+}
+.sec2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid rgb(128, 128, 128);
+  width: 99.%;
+}
+.imgcard-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 2px solid rgb(0, 255, 42); */
+  width: 100%;
+  justify-content: center;
+}
+.Image-father{
+  /* border: 2px solid red; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.run{
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid greenyellow; */
+  width:75%;
+  border-radius: 0px;
+  height: 100%;
+}
+.runbtn{
+  width:100%;
+ 
+  text-align: center;
+}
+
 }
 
 
 
 
 
-.hide{
+
+
+
+
+
+.hide {
   display: none;
 }
