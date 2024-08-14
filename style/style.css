@@ -395,6 +395,7 @@ margin: ;
   border: none;
   border-radius: 5px;
   color: white;
+  width: 100%;
 }
 
 /* ........footer section */
@@ -453,7 +454,7 @@ margin: ;
 .footer-bottom {
   text-align: center;
   margin-top: 20px;
-  border-top: 1px solid #444;
+  border-top: 2px solid #444;
   padding-top: 20px;
 }
 
@@ -681,7 +682,7 @@ margin: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid rgb(128, 128, 128);
+  /* border: 2px solid rgb(128, 128, 128); */
   width: 99.%;
 }
 .imgcard-container{
@@ -713,7 +714,30 @@ margin: 0px;
  
   text-align: center;
 }
+.sec4{
+  display: flex;
+  flex-direction: column;
+  
+}
+.BMI-Chart-cal{
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  margin: 0;
+  width: 100%;
+  /* border: 2px solid rgb(190, 238, 170); */
+}
+.bmi-chart{
+  padding: 0px 50px;
+  width: 70%;
+  /* border: 2px solid rgb(190, 238, 170); */
+}
+.bmi-calculator{
+  padding: 0px 50px;
+  width: 70%;
+  /* border: 2px solid rgb(190, 238, 170); */
 
+}
 }
 
 
