@@ -289,6 +289,7 @@ margin: ;
   background: rgb(34, 34, 34);
   width: 75%;
   margin: auto;
+  
 
 }
 .run1 {
@@ -318,8 +319,12 @@ margin: ;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  width: 75%;
+  width: 78%;
   margin-top: 50px;
+  padding:15px;
+  /* border: 2px solid greenyellow; */
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
 }
 .img-card {
   position: relative;
@@ -448,7 +453,8 @@ margin: ;
 }
 
 .footer-brand {
- width: 100%;
+ width: 90%;
+ /* border: 2px solid red; */
 }
 
 .footer-brand p {
@@ -552,6 +558,9 @@ margin: ;
   background-color: #1e1e1e;
   padding: 20px;
   border-radius: 10px;
+  /* border: 2px solid red; */
+  height: 180px;
+
 }
 
 .workout-info h3,
@@ -716,9 +725,9 @@ width: auto;
 }
 .label2 ,.free-workout{
   /* margin: 0px; */
- 
-  margin-left: 160px; 
-  margin-top: -600px;
+ /* border: 2px solid greenyellow; */
+  margin-left: 35%; 
+  margin-top: -90%;
 }
 
 .label ,.video-tutorial{
@@ -764,11 +773,13 @@ width: auto;
   width:75%;
   border-radius: 0px;
   height: 100%;
+  
 }
 .runbtn{
-  width:100%;
- 
+  width:90%;
   text-align: center;
+  margin:0px auto;
+  /* border: 2px solid red; */
 }
 .sec4{
   display: flex;
@@ -874,6 +885,13 @@ nav{
 .oneone{
   /* border: 2px solid red; */
   width: 98%;
+}
+.img2 {
+  height: 70%;
+  width: 90%;
+  /* border: 2px solid red; */
+  border-radius: 18px;
+  margin:30px auto;
 }
 }
 
