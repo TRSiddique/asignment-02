@@ -472,3 +472,69 @@ letter-spacing: 0px; */
   margin-top: 30px;
   font-family: Inter;
 }
+
+@media screen and (max-width:576px) {
+    footer{
+        /* width: 100%; */
+        padding: 0px;
+        
+    } 
+    .daily-workout{
+        width: 100%;
+    }
+    .footer-container{
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 2rem;
+        
+        
+    }
+    .footer-links{
+        flex-direction: column;
+        margin-left: 1px;
+        padding-left: 0px;
+        font-size: 2rem;
+
+    }
+    .bmi-para{
+    
+      width: 350px;
+      
+    }
+    
+    .card-img{
+      height: 272px;
+      width: 313px;
+      margin: 0px auto;
+    }
+    .Trainner{
+      /* grid-template-columns: repeat(1,1fr);
+      border: 2px solid red;
+      width: 100%;
+      margin: opx auto; */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 18px;
+background: rgba(255, 255, 255, 0.1);
+padding: 30px 5px;
+
+    }
+    .sec5{
+      width: 100%;
+      
+    }
+    .marg{
+      padding: 0 20px;
+
+    }
+    
+}
+
+
+
+
+
+.hide{
+  display: none;
+}
