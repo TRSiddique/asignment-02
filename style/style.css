@@ -436,6 +436,7 @@ margin: ;
 /* ........footer section */
 
 .footer {
+  padding-top: 20px;
   background-color: #1e1e1e;
  
   color: white;
@@ -521,6 +522,7 @@ margin: ;
   text-align: center;
   /* margin-top: -25px; */
   padding-top: 20px;
+  padding-bottom: 20px;
 
 }
 
@@ -895,3 +897,26 @@ nav{
 }
 }
 
+@media screen and (max-width:434px) {
+ body{
+  margin: 0 auto;
+ } 
+  
+}
+@media screen and (max-width:375px) {
+  body{
+   margin: 0 auto;
+  } 
+  .imge{
+    border: 2px solid red;
+    margin: 0;
+    padding: 0;
+  }
+  .bmi-para{
+    border: 2px solid red;
+    margin: 0;
+    padding: 0;
+    width: 90%;
+  }
+   
+ }
